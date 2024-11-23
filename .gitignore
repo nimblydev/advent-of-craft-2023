@@ -48,3 +48,8 @@ build/
 bin/
 Obj/
 *.user
+exercise/ts/day01/node_modules/.bin/jsesc
+
+### Node.js
+node_modules/
+
