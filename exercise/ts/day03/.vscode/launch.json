@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "name": "vscode-jest-tests.v2.day03",
+      "request": "launch",
+      "args": [
+        "node_modules/.bin/jest",
+        "--runInBand",
+        "--watchAll=false",
+        "--testNamePattern",
+        "${jest.testNamePattern}",
+        "--runTestsByPath",
+        "${jest.testFile}"
+      ],
+      "cwd": "/home/yoann/Documents/git/advent-of-craft/2023/advent-of-craft-2023/exercise/ts/day03",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "disableOptimisticBPs": true,
+      "program": "/home/yoann/Documents/git/advent-of-craft/2023/advent-of-craft-2023/exercise/ts/day03/src/tests/day03.test.ts",
+      "env": {
+        "NODE_OPTIONS": "--experimental-vm-modules"
+      }
+    }
+  ]
+}
